@@ -1,0 +1,2 @@
+To install and use CBMAT place all the function in a same directory, and then add path it from inside MATLAB.
+Please, note that 'filter_by_tissue' and 'prepare_MACM' requires 'Tools for NIfTI and ANALYZE image' (Shen, 2021) to be in the path as well. This can be downloaded from https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image.
