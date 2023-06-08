@@ -27,6 +27,20 @@ A general description of each function is provided below:
 
 'filter_by_tissue' allows to specify a tissue of interest and to retain in each experiment only foci located in it. The tissue is specified as a 2x2x2 mm .nii binary mask in Talairach standard space through the argument 'ROI'.
 
+'prepare_MACM' allows to prepare data to run Meta-Analytic Connectivity Modeling (MACM). In doing so, experiments are retained only if they report at least one coordinate of effect in a given region of interest specified as user defined as a 2x2x2 mm .nii mask in Talairach standard space through the argument 'ROI'.
+
+'create_LOEO' allows to prepare data to run a Leave One Experiment Out validation. Given an original dataset of n experiments it generates n subset with n-1 experiments each. If the argument 'add' is set to 1 the procedure becomes incremental, so to exclude one more experiment at each iteration.
+
+'create_subsets' allows to prepare data to run a sub-sample validation. The argument 'ns' sets the number of sub-samples to be created, while the argument 'nexp' specifies the size of each sub-sample. Finaly, the argument 'rep' controls replacement. Different combinations of these parameters allows to prepare data for either a split-half analysis or a boot-strap analysis.
+
+'dataset_hist' allows to visualize the distributions of the sample size and year of pubblication of the experiments included. The number of bins to be shown in the histogram of sample sizes can be controlled through the argument 'sbins'. Both the average sample size and the median year of publication are also computed and shown over the histograms.
+
+
+
+
+
+
+
 
 
 
