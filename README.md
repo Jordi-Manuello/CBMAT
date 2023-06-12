@@ -23,7 +23,7 @@ A general description of each function is provided below:
 
 'load_foci' allows to load the .txt input into MATLAB. The output .txt will contain both coordinates and meta-data of the experiments originally included in the input file, after removal of possible duplicates. Experiments are treated as duplicates based on identical meta-data and identical reported coordinates.
 
-'remove_multiple' allows to retain only one experiment among those which came from a same paper, i.e. having same first author and year of publication. The argument 'mode' allows to control the way the sampling is made (1 = greater sample size; 2 = at random). 
+'remove_multiple' allows to retain only one experiment among those which came from a same paper, i.e. having same first author and year of publication. The argument 'mode' allows to control the way the sampling is made (1 = greater sample size; 2 = at random). The optional argument 'seed' allows to specify an integer seed to control the behaviour of the random number generator process behind random sampling for replicability purposes.
 
 'filter_by_tissue' allows to specify a tissue of interest and to retain in each experiment only foci located in it. The tissue is specified as a 2x2x2 mm .nii binary mask in Talairach standard space through the argument 'ROI'.
 
