@@ -12,7 +12,7 @@ If the 'CBMAT' directory was already created by a previous installer, further fu
 To run a function from terminal move to the 'application' sub-directory of the function an execute the respective .sh file that is placed there. The command requires to specify the absolute path to the MATLAB 2016a runtime (that will be downloaded and installed by the installer used for the first function needed). So to run 'remove_multiple' the call will be 
 ./run_complete_run_comp.sh /path/to/MATLAB_Runtime/v901
 Further information can be found in the 'readme.txt' file placed in the 'application' sub-directory for each function.
-Arguments to be passed to the function will be prompted on the terminal.
+Arguments to be passed to the function will be prompted on the terminal, and have not to be specified inside the call to the function.
 
 
 
