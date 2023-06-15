@@ -13,6 +13,7 @@ To run a function from terminal move to the 'application' sub-directory of the f
 ./run_complete_run_comp.sh /path/to/MATLAB_Runtime/v901
 Further information can be found in the 'readme.txt' file placed in the 'application' sub-directory for each function.
 Arguments to be passed to the function will be prompted on the terminal, and have not to be specified inside the call to the function.
+Outputs will be saved in the 'application' sub-directory of the function used.
 
 
 
