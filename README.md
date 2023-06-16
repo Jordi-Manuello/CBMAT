@@ -33,7 +33,9 @@ A general description of each function is provided below:
 
 'create_subsets' allows to prepare data to run a sub-sample validation. The argument 'ns' sets the number of sub-samples to be created, while the argument 'nexp' specifies the size of each sub-sample. Finaly, the argument 'rep' controls replacement. Different combinations of these parameters allows to prepare data for either a split-half analysis or a boot-strap analysis.
 
-'dataset_hist' allows to visualize the distributions of the sample size and year of pubblication of the experiments included. The number of bins to be shown in the histogram of sample sizes can be controlled through the argument 'sbins'. Both the average sample size and the median year of publication are also computed and shown over the histograms.
+'dataset_hist' allows to visualize the distributions of the sample size and year of pubblication of the experiments included. The number of bins to be shown in the central histogram of sample sizes can be controlled through the argument 'sbins'. Both the average sample size and the median year of publication are also computed and shown over the histograms.
+
+If you need help or want to discuss specific issues please send emails to jordi.manuello@unito.it
 
 
 
