@@ -3,17 +3,31 @@ To install and use CBMAT through MATLAB place all the function in a same directo
 Please, note that 'filter_by_tissue' and 'prepare_MACM' requires 'Tools for NIfTI and ANALYZE image' (Shen, 2021) to be in the path as well. This can be downloaded from https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image.
 
 %%%%%% Installing and using CBMAT as a standalone compiled for macOS %%%%%%
-To install and use CBMAT as a standalone on macOS download and unzip the CBMAT_compiled_macOS archive. 
+To install and use CBMAT as a standalone on macOS download and uncompress the CBMAT_compiled_macOS archive. 
 This contains all the separate functions plus the complete run. 
 Each function must be installed through the respective installer, and is already built with all the required dependencies (e.g. to use the function 'remove_multiple' you only need to run the 'remove_multiple_installer' file, although the 'remove_multiple' function internally uses other CBMAT functions). 
 As a default, the istaller will place the function inside a directory 'CBMAT' that will be automatically created inside 'Applications'. So in the case of 'remove_multiple' the path will be /Applications/CBMAT/remove_multiple
 If the 'CBMAT' directory was already created by a previous installer, further functions will be placed there, in the respective sub-directory.
 
-To run a function from terminal move to the 'application' sub-directory of the function an execute the respective .sh file that is placed there. The command requires to specify the absolute path to the MATLAB 2016a runtime (that will be downloaded and installed by the installer used for the first function needed). So to run 'remove_multiple' the call will be 
+To run a function from terminal move to the 'application' sub-directory of the function and execute the respective .sh file that is placed there. The command requires to specify the absolute path to the MATLAB 2016a runtime (that will be downloaded and installed by the installer used for the first function needed). So to run 'remove_multiple' the call will be 
 ./run_complete_run_comp.sh /path/to/MATLAB_Runtime/v901
 Further information can be found in the 'readme.txt' file placed in the 'application' sub-directory for each function.
 Arguments to be passed to the function will be prompted on the terminal, and have not to be specified inside the call to the function.
 Outputs will be saved in the 'application' sub-directory of the function used.
+
+Please be aware that compatibility issues due to the coupling of the used version of the compiler and running OS may exists. 
+We have tested the macOS compiled version from El Capitan to Catalina. Feel free to get in touch should you encounter issues with latest versions.
+
+%%%%%% Installing and using CBMAT as a standalone compiled for Windows %%%%%%
+To install and use CBMAT as a standalone on Windows download and uncompress the CBMAT_compiled_Windows archive. 
+This contains all the separate functions plus the complete run. 
+Each function is already built with all the required dependencies (e.g. to use the function 'remove_multiple_comp' you only need to run the 'remove_multiple_comp.exe' file, although the 'remove_multiple' function internally uses other CBMAT functions). 
+
+To run a function from terminal move to the directory where the function was uncompressed and execute the respective .exe file. 
+So to run 'remove_multiple_comp' the call will be 
+remove_multiple_comp.exe 
+Arguments to be passed to the function will be prompted on the terminal, and have not to be specified inside the call to the function.
+Outputs will be saved in the same directory from which the function was executed.
 
 
 
