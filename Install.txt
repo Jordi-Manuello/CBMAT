@@ -29,6 +29,8 @@ remove_multiple_comp.exe
 Arguments to be passed to the function will be prompted on the terminal, and have not to be specified inside the call to the function.
 Outputs will be saved in the same directory from which the function was executed.
 
+Please note that running the functions requires the correct version of the MATLAB runtime. If this is not already installed, an error will appear in the terminal specifying the version needed. This can be then downloaded from https://it.mathworks.com/products/compiler/matlab-runtime.html
+
 
 
 
