@@ -1,5 +1,8 @@
 # CBMAT
-CBMAT is a MATLAB® suite of user-friendly and automated functions assisting researchers through data preparation for coordinate-based meta-analysis and post-hoc analyses
+CBMAT is a MATLAB® suite of user-friendly and automated functions assisting researchers through data preparation for coordinate-based meta-analysis and post-hoc analyses.
+
+If you use CBMAT please cite 
+Manuello, J., Liloia, D., Crocetta, A. et al. CBMAT: a MATLAB toolbox for data preparation and post hoc analyses in neuroimaging meta-analyses. Behav Res (2023). https://doi.org/10.3758/s13428-023-02185-3
 
 CBMAT consists of the following seven functions:
 1)	load_foci: To import foci into MATLAB®
